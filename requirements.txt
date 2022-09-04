@@ -1,3 +1,4 @@
 openai
 streamlit
 tensorflow
+streamlit_lottie
