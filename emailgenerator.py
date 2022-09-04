@@ -17,7 +17,7 @@ def generate_email(key, userPrompt ="Write me a professionally sounding email", 
     )
     return response.get("choices")[0]['text']
 
-def replace_spaces_with_pluses(self, sample):
+def replace_spaces_with_pluses(sample):
     """Returns a string with each space being replaced with a plus so the email hyperlink can be formatted properly"""
     changed = list(sample)
     for i, c in enumerate(changed):
